@@ -4,6 +4,15 @@ public class While_Loop {
 
     public static void main(String[] args) {
 
+        /*
+
+            Syntax of While Loop :
+                while(condition){
+                    //body
+                }
+
+         */
+
         // program to print numbers from 1 to 10
         int j=1;
         while(j<=10){
