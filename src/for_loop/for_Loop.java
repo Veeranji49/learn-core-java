@@ -194,31 +194,30 @@ public class for_Loop {
 
 
         //print the perfect number
-        int n5 =6;
-        int sum3 =0;
-        for(int i=1; i<n5; i++){
-            if(n5%i==0){
-                sum3 = sum3 +i;
+        int n5 = 6;
+        int sum3 = 0;
+        for (int i = 1; i < n5; i++) {
+            if (n5 % i == 0) {
+                sum3 = sum3 + i;
             }
         }
-        if(sum3==n5){
+        if (sum3 == n5) {
             System.out.println("Perfect Number");
-        }
-        else {
+        } else {
             System.out.println("Not Perfect Number");
         }
 
 
         //To print perfect numbers from 1 to 100
-        for(int u=1; u<=100; u++){
+        for (int u = 1; u <= 100; u++) {
             int sum4 = 0;
-            for(int i=1; i<u; i++){
-                if(u%i==0){
-                    sum4 =sum4+i;
+            for (int i = 1; i < u; i++) {
+                if (u % i == 0) {
+                    sum4 = sum4 + i;
                 }
             }
-            if(sum4 == u){
-                System.out.println("perfect : "+ u);
+            if (sum4 == u) {
+                System.out.println("perfect : " + u);
             }
         }
 
@@ -232,8 +231,6 @@ public class for_Loop {
         System.out.println(year + " is " + (isLeapYear ? "" : "not ") + "a leap year.");
 
 
-
-
         // print all factors of a number
         int number1 = 36;
         System.out.print("Factors of " + number1 + ": ");
@@ -242,16 +239,60 @@ public class for_Loop {
                 System.out.print(i + " ");
             }
         }
+        // Generate the series 1, 4, 9, 16, 25, ... up to 100
+        for (int anji = 1; anji * anji <= 100; anji++) {
+            System.out.println(anji * anji + " ");
+        }
 
 
 
+         //  Program to Print Numbers from 1 to 100 That Are Divisible by 7
+        for(int i =1; i<=100; i++){
+            if(i%7==0){
+                System.out.println(i);
+            }
+        }
 
 
+        // Program to Print Numbers from 1 to 100 That Are Neither Divisible by 3 Nor 7
+        for (int i = 1; i <= 100; i++) {
+            if (i % 3 != 0 && i % 7 != 0) {
+                System.out.println(i);
+            }
+        }
 
 
+        // Program to Print Numbers from 1 to 50 and Identify if They Are Odd or Even
+        for (int i = 1; i <= 50; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i + " is even");
+            } else {
+                System.out.println(i + " is odd");
+            }
+        }
 
+        // program to print sum of prime numbers from 1 to 20
+        int sum5 = 0;
+        for(int i=1; i<=20; i++){
+            int count1 = 0;
+            for(int j =1; j<=i; j++){
+                if(i%j==0){
+                    count1++;
+                }
+            }
+            if(count1==2){
+                sum5 = sum5 + i;
+            }
+        }
+        System.out.println(sum5);
 
 
+        // Program to Print the Product of All Numbers from 1 to 10
+        int product = 1;
+        for (int i = 1; i <= 10; i++) {
+            product *= i;
+        }
+        System.out.println("Product of numbers from 1 to 10: " + product);
 
 
 
@@ -298,86 +339,6 @@ public class for_Loop {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
     }
 }
