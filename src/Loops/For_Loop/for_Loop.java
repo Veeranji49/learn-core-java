@@ -1,4 +1,4 @@
-package for_loop;
+package Loops.For_Loop;
 
 public class for_Loop {
 
