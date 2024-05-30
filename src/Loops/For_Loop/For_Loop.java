@@ -1,10 +1,10 @@
 package Loops.For_Loop;
 
-public class for_Loop {
+public class For_Loop {
 
     public static void main(String[] args) {
 
-        // The syntax of for loop :
+        // The syntax of For loop :
        /*
             for (initialExpression; condition; increment/decrement) {
                  // body of the loop
