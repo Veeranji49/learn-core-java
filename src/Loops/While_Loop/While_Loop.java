@@ -1,5 +1,7 @@
 package Loops.While_Loop;
 
+import java.util.Scanner;
+
 public class While_Loop {
 
     public static void main(String[] args) {
@@ -266,7 +268,7 @@ public class While_Loop {
         }
 
 
-
+        //divisble by 3 not 5
         int i11 = 1;
         while (i11 <= 50) {
             if (i11 % 3 == 0 && i11 % 5 != 0) {
@@ -276,34 +278,112 @@ public class While_Loop {
         }
 
 
+        //Strong number or not
+        int n1=145;
+        int sum2=0;
+        int x=n1;
+        while(n1!=0)
+        {
+            int d=n%10;
+            int fact2=1;
+            for(int s=1; s<=d; s++)
+            {
+                fact2=fact2*s;
+            }
+            sum2=sum2+fact2;
+            n1=n1/10;
+
+        }
+        if(x==sum2)
+        {
+            System.out.println("Strong number");
+        }
+        else
+        {
+            System.out.println("Not Strong Number");
+        }
+
+
+
+        //Least digit
+        int m=274189;
+        int least=9;
+        while(m!=0)
+        {
+            int d=m%10;
+            if(d<least)
+            {
+                least=d;
+            }
+            m=m/10;
+        }
+        System.out.println(least);
 
 
 
 
+        int o=6251;
+        int count5=0;
+        while(o!=0)
+        {
+            o=o/10;
+            count5++;
+        }
+        System.out.println(count5);
+
+
+
+        //largest number
+        int k=2353738;
+        int large=0;
+        while(k!=0)
+        {
+            int d=k%10;
+            if(d>large)
+            {
+                large=d;
+            }
+            k=k/10;
+        }
+        System.out.println(large);
 
 
 
 
+        // count 0 digits
+        int n3=12340120;
+        int count6=0,r;
+        while(n3!=0)
+        {
+            r=n3%10;
+            if(r==0)
+            {
+                count6++;
+            }
+            n3=n3/10;
+        }
+        System.out.println(count6);
 
 
+        //Display the first digit
+        int n4=12345;
+        while(n4<=10)
+        {
+            n4=n4/10;
+        }
+        System.out.println(n4%10);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //sum of first and last numbers
+        int n8=12345;
+        int first=n8%10;
+        n8=n8/10;
+        while(n8>=10)
+        {
+            n8=n8/10;
+        }
+        int last=n8%10;
+        System.out.println(first+last);
 
 
     }
