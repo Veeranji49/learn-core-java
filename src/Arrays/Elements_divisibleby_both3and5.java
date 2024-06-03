@@ -6,17 +6,13 @@ public class Elements_divisibleby_both3and5 {
 		
 		//Display elements that are divisible by both 3 and 5
 		
-		int[] arr= {9,1,4,2,5,2,7,5,8,6,3,1,2,3,4,5,6,7,8,9,10};
+		int[] arr= {9,1,4,2,5,15};
 		
 		for(int i=0; i<=arr.length-1; i++)
 		{
-			if(arr[i]%3==0)
+			if(arr[i]%3==0&&arr[i]%5==0)
 			{
 				System.out.println(" divisible by 3:"+arr[i]);
-			}
-			else if(arr[i]%5==0)
-			{
-				System.out.println("Divisible by 5="+arr[i]);
 			}
 			else
 			{
