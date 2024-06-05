@@ -1,0 +1,18 @@
+1) Define the Linear Search Method :
+    Create a method that takes an array and a target value as parameters.
+    The method returns the index of the target value if found, or -1 if not found.
+
+2) Loop Through the Array
+    Use a for loop to go through each element of the array.
+
+3) Check Each Element
+    Inside the loop, use an if statement to check if the current element is equal to the target value.
+    If it is, return the current index.
+
+4) Return -1 if Not Found
+    If the loop completes and the target value is not found, return -1.
+
+5) Test the Method
+    In the main method, create an array and a target value.
+    Call the linear search method with the array and target value.
+    Print the result.

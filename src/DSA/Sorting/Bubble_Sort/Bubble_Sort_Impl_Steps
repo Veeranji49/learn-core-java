@@ -1,0 +1,27 @@
+
+1)Start from the Beginning
+    Begin with the first element of the array.
+
+
+2)Compare Adjacent Elements
+    Compare each element with its adjacent element.
+
+
+3)Swap if Necessary
+    If the current element is greater than the next element, swap them.
+
+
+4)Repeat Until Sorted
+    Continue this process for each pair of adjacent elements throughout the array.
+
+
+5)One Pass Through the Array
+    One pass through the array ensures that the largest element "bubbles up" to its correct position.
+
+
+6)Repeat for Multiple Passes
+    Repeat this process for multiple passes until no more swaps are needed, indicating the array is sorted.
+
+
+7)Test the Sorted Array
+    Once the array is sorted, test it to ensure it's in the correct order.

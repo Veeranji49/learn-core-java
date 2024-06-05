@@ -1,0 +1,24 @@
+
+1) Find the Smallest Element
+    Start with the first element of the array as the current minimum.
+
+2) Iterate Through the Array
+    Loop through the array starting from the second element.
+
+3) Compare Each Element
+    Compare the current element with the current minimum.
+
+4) Update the Minimum
+    If the current element is smaller than the current minimum, update the minimum to the current element.
+
+5) Swap Elements
+    After iterating through the array, swap the minimum element with the first unsorted element.
+
+6) Repeat
+    Repeat steps 1 to 5 for the remaining unsorted portion of the array.
+
+7) Continue Until Sorted
+    Continue this process until the entire array is sorted.
+
+8) Test the Sorted Array
+    Once the array is sorted, test it to ensure it's in the correct order.
