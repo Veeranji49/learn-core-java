@@ -46,7 +46,7 @@
     A Library is a collection of pre-defined programs of a language.
 
 ### Datatypes :
-    The datatypes represents the type of data that we store into the memory.
+    The Datatypes represents the type of data that we store into the memory.
 
 ### Types of Datatypes :
 #### Primitive :
