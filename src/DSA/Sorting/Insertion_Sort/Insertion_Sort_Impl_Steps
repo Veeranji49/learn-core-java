@@ -1,0 +1,18 @@
+
+1)  Start from the second element:
+        Begin with the second element of the array because a single element (the first one) is already considered sorted.
+
+2)  Take the current element:
+        The element you're currently looking at is the key.
+
+3)  Compare with the previous elements:
+        Compare the key with the elements before it in the array.
+
+4)  Shift elements to the right:
+        If the key is smaller than the previous elements, shift the previous elements one position to the right to make space for the key.
+
+5)  Insert the key:
+        Place the key in its correct position within the sorted part of the array.
+
+6)  Repeat:
+        Move to the next element and repeat steps 2-5 until the entire array is sorted.
