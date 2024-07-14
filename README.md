@@ -284,3 +284,351 @@
 *   If class is final, cannot be extended.
 *   If method is final, cannot be overridden.
 *   If variable is final, cannot be modified.
+
+
+### Recursion :
+    If a method calling itself multiple times, then it is called recursion. Such methods
+    are called as recursive methods.
+
+### Parameter :
+    The values that are passed to a method or constructor.
+
+### Reference Variable :
+    If a variable is referring or pointing to an object.
+
+### Is-A-Relationship :
+    If a class is inheriting another class.
+
+### Has-A-Relationship :
+    If a class contains an object of another class.
+
+### Constructor Overloading :
+    The Process of specifying multiple constructors with different signature.
+
+### Typecasting :
+    It is a process of converting a value from one type to another type.
+
+### Widening :
+    It is a process of converting a value from smaller primitive type to bigger primitive type.
+
+### Narrowing :
+    It is a process of converting a value from bigger primitive type to smaller primitive type.
+
+### Upcasting :
+    If a child class object is referred by parent class reference.
+
+### Downcasting :
+    If the parent class object is referred by child class reference.
+
+### Package :
+    A Package is a collection of classes and interfaces which are related. The purpose of 
+    a package is to improve the performance and increase accessability.
+*   Predefined packages
+*   User defined packages
+
+
+### Import Statements :
+    Import statements can be used to access a class or an interface from a package.
+
+### Singleton class :
+    A class is said to be singleton, if we are able to create only one object for that class.
+
+
+### Factory Method :
+    If a method returns an object of its own class. Must be declared as static.
+
+### Keywords :
+    The words that have predefined meaning in java or the words whose meaning is reserved.
+    Ex : class, import, static, public, private, final., etc,.
+
+### Modifiers :
+    Modifiers are keywords, which modifies the meaning of a declaration.
+    Ex : static, final, abstract, public, private, protected.
+
+### Specifiers :
+    Specifiers are modifiers, which specify the level of accessability.
+    Ex : public, private, protected.
+
+### Exception Handling :
+    When an application developed, the application may contain some errors. The errors 
+    that occur in the application are two types.
+*  Compile time errors
+*  Runtime errors
+
+
+### Compiletime errors :
+    The error that occur in a program or application because of the syntactical mistakes.
+
+### Runtime errors :
+    The errors that occur in a program at execution time, because of either programmer failure
+    or JVM failure.
+
+### Exception :
+    An exception is a runtime error, which occurs because of the programmer failure.
+    Exception is the supermost class of all the exceptions.
+
+### Error :
+    An error is a runtime error which occurs because of the JVM failure. Error is the super most class of all 
+    Error classes.
+
+### Checked Exception :
+    The Exceptions whose handling is mandatory.
+    Ex : FileNotFoundException, IOException, SQLException,
+
+### Unchecked Exception :
+    The exceptions whose handling is optional.
+    Ex : ArithmeticException, ArrayIndexOutOfBoundsException, NullPointerException, etc.,
+
+
+### Try block :
+    Try block is used to place the doubtful code that may rise the exception.
+
+### Catch block :
+    We can specify a group of statements that will display the information of the exception
+    that has occured.
+
+### Finally block :
+    A finally is a block, in which we can specify a group of statements, that will 
+    perform code cleanup activities like releasing memory, resources  etc.,
+
+### MultiCatch block :
+    We can handle multiple exceptions by writing a single catch block.
+
+### throws :
+    The throws keyword is designed to transfer or delegate the responsibilty of exception
+    handling of its caller.
+
+### Throwable :
+    It is the supermost class of all runtime errors. Throwable is the subclass of object class.
+
+### throw :
+    The throw keyword is used to throw an exception object explicitly to the JVM.
+
+### PrintStackTrace() :
+    This method can be used to display the detailed information of the exception that has
+    occured. This method will provide details like exception name,
+
+### getMessage() :
+    The getMessage() can be used to display only the reason for the occurance of the exception.
+
+### UserDefined Exception :
+    If an exception is created by user or programmer.
+
+### Reflection :
+    It is a process of examining or introspecting the infromation of a class during the
+    execution time.
+
+### Wrapper classes :
+    These classes are used to wrap or convert a primitive datatypes into a class, so that
+    the application is completely or pure object oriented.
+
+### Boxing :
+    It is a process of converting a value from primitive type to wrapper type.
+
+### UnBoxing :
+    It is a process of Converting value from wrapper type to primitive type.
+
+### Collections :
+    Collections are used to store the records dynamically and it is not fixed size.
+#### Advantages :
+*  Reduces Programming effort
+*  Increases Performance
+*  Provides interoperability
+
+
+### List :
+    Lists are used for storing a group of individual elements, where the elements can be
+    duplicated.
+
+### ArrayList :
+*  ArrayList is an implementation class of List interface
+*  ArrayList allow duplicates
+*  ArrayList allow null values
+*  ArrayList is not synchronized
+*  Faster in accessing elements
+*  Slower in performing insertions and deletions.
+*  intial capacity is 0
+
+
+### LinkedList :
+*  LinkedList is a implementation class of list interface.
+*  LinkedList allow duplicates
+*  LinkedList allow null values
+*  LinkedList is not synchronized
+*  Slower in accessing elements
+*  Faster in performing insertions and deletions.
+*  Maintains insertion order
+*  intial capacity is 0
+
+
+### Vector :
+*  Vector is a implementation class of list interface.
+*  Vector allow duplicates
+*  Vector allow null values
+*  Vector is synchronized
+*  Maintaining insertion order
+*  intial capacity is 10
+
+
+### Stack :
+*  Stack is a implementation class of list interface.
+*  Stack allow duplicates
+*  Stack allow null values
+*  Stack is synchronized
+*  Stack class can be used for implementing stack data structure.
+*  Maintains insertion order
+*  intial capacity is 10
+
+
+### Set :
+    Set Category can be used for storing a group of individual objects. Set category does 
+    not allow duplicates
+
+### HashSet :
+*  HashSet is a implementation class of set interface
+*  HashSet does not allow duplicates
+*  HashSet allow null values
+*  HashSet is not synchronized
+*  HashSet does not guarantee the order of insertion
+*  intial capacity is 16
+
+### LinkedHashSet :
+*  LinkedHashSet is an implementation class of Set interface.
+*  It does not allow duplicates
+*  It allow null values
+*  It is not synchronized
+*  It guarantees the order of insertion
+*  Default intial capacity is 16
+
+
+###  TreeSet :
+*  TreeSet is a implementation class of Set interface
+*  TreeSet does not allow duplicates
+*  TreeSet is not synchronized
+*  TreeSet sorts the elements in natural order
+*  TreeSet allow null value
+
+
+### Map :
+    Map Category can be used for storing group of objects in the form of key value pairs.
+    Keys must be unique. Values can be duplicated.
+
+### HashMap :
+*  HashMap is a implementation class of Map interface.
+*  HashMap can be used for storing the elements in the form of key-value pairs, where the keys cannot be duplicated and the values can be duplicated.
+*  HashMap allow null in both keys and values
+*  HashMap is not synchronized
+*  HashMap does not guarantee the order of insertion
+*  Default initial capacity is 16
+
+
+### LinkedHashMap :
+*  LinkedHashMap is an implementation class of Map interface
+*  LinkedHashMap can be used for storing the elements in the form of key-value pairs, where the keys cannot be duplicated and the values can be duplicated
+*  LinkedHashMap allow null in both keys and values
+*  LinkedHashMap is not synchronized
+*  LinkedHashMap guarantees the order of insertion
+*  default initial capacity is 16
+
+### TreeMap :
+*  TreeMap is an implementation class of Map interface
+*  TreeMap can be used for storing the elements in the form of key-value pairs, where the keys cannot be duplicated and the values can be duplicated
+*  TreeMap is not synchronized
+*  Map does not guarantee the order of insertion
+*  TreeMap allows null into keys
+*  TreeMap sorts the keys in natural order
+
+### Hashtable :
+*  Hashtable is an implementation class of Map interface
+*  Hashtable does not allow null in both keys and values
+*  Hashtable is synchronized
+*  Hashtable does not guarantee the order of insertion
+*  default capacity is 11
+
+
+### IO Streams
+*  A stream represents a sequential flow of data from one locationb to another location
+*  The streams that are used for performing input and output operations
+
+
+### Serialization :
+    It is a process of converting an object into a stream of bytes
+
+### Deserialization :
+    It is a process of converting a stream of bytes into object
+
+
+### Multithreading :
+*  The process of executing multiple threads at the same time
+*  If the application contains multiple threads then the application is said to be multithreaded.
+
+
+### Thread :
+    A thread is a sequential piece of code which will be executed separately.
+
+### Single tasking :
+    The process of executing a single task at a time. Processor time is wasted.
+
+### Multi-tasking :
+    The Process of executing multiple tasks at the same time
+
+### Thread Synchronization :
+    When multiple threads wants to access the same object at the same time and giving
+    access to only one the thread
+
+### start() :
+*  This method is used to execute a userdefined thread. The functionality of userdefined thread is available in run() method.
+*  We cannot call start() method two times or multiple times on the same thread.
+
+### sleep() :
+    This method is used to suspend the execution of a thread for a specified amount of time.
+
+### join() :
+    This method can be used to suspend the execution of a thread until another thread dies to which the thread is joined.
+
+### wait() :
+    This method is used to suspend the execution of a thread until it recieves a notification.
+
+### notify() :
+    This method is used to send a notification to one of the waiting threads.
+
+### notifyAll() :
+    This method is used to send a notification to all the waiting threads.
+
+### JDK :
+    JDK stands for Java Development kit. JDK is a bundle of software devlopment tools and supporting
+    libraries combined with the JRE and JVM.
+
+### JRE :
+    JRE stands for Java Runtime Environment. JRE is a sofware that Java Programs require to run correctly.
+
+### JVM :
+    JVM stands for Java Virtual Machine. JVM enables a computer to run Java programs as well as
+    programs written in other languages that are also compiled to Java bytecode.
+
+### Files :
+    A file is an abstract datatype. A named location used to store related information.
+
+### Iterator :
+    An iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
+
+### ListIterator :
+    ListIterator is used to iterate elements one-by-one form a list implemented object.
+    It is useful only for list implemented classes.
+
+### Enumeration :
+    It is a special datatype which contains a set of pre-defined constants.
+
+### Inner class :
+    It is defined inside the body of another class.
+
+### Creating Object for the class :
+*  using new keyword
+*  using new instance
+*  using clone() method
+*  using deserialization
+*  using newInstance() method of constructor class
+
+
+### Class Loader
+    It is a part of the JRE that dynamically loads Java classes into the JVM
