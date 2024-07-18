@@ -26,8 +26,17 @@
     Ex : Gmail, Facebook, etc..,
 
 ### Java :
-    Java is a multi-platform, object-oriented, and that can used as a platform in itself.
-    It is fast, secure, highlevel, reliable Programming language.
+    Java is a high-level, object-oriented programming language that is widely used ofr developing a 
+    variety of applications, including a web, desktop and mobile applications.
+
+###  difference between Java and JavaScript
+    Java and Javascript are two different programming languages with different purposes. Java is used for
+    building applications, while JavaScript is primarily used for adding interactivity to web pages.
+
+### Main principle of Java Programming 
+    Java follows the principle of "write once, run anywhere" (WORA), which means that Java code
+    can be compiled into bytecode and executed on any platform tha has a JVM.
+
 
 ### Java Features :
 * Simple
@@ -632,3 +641,37 @@
 
 ### Class Loader
     It is a part of the JRE that dynamically loads Java classes into the JVM
+
+### Difference between JDK and JRE
+    The JRE is basically the JVM where you Java programs are being executed.
+    It also includes browser plugins for applet execution. The JDK is the full featured
+    software development Kit for Java, including the JRE, the compilers and tools, in order for a user to develop, compile
+    and execute Java applications.
+
+### static keyword 
+    The static keyword denotes that a member variable or method can be accessed,
+    without requiring an instantiation of the class to which it belongs.
+*  A user cannot override static methods in java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time.
+
+### Pass by reference & pass by value
+    When an object is passed by value, this means that a copy of the object is passed.
+    Thus, even if changes are made to that object, it doesn't affect the original value
+    When an object is passed by reference, this means that the actual object is not
+    passed, rather a reference of the object is passed. Thus, any changes made by the external
+    method, are also reflected in all places.
+
+###  difference between processes and threads
+    A process is execution of a program, while a Thread is a single execution sequence within
+    a process. A process can contain multiple threads. A Thread is sometimes called lightweight process.
+
+###  deadlock 
+    A condition that occurs when two processes are waiting for each other to complete, before 
+    proceeding. The result is that both processes wait endlessly.
+
+### Garbage Collection
+    The purpose of garbage collection is to identify and discard those objects that are no
+    longer needed by the application, in order for the resources to be reelaimed and reused.
+
+### Applet
+    A java applet is program that can be included in a HTML page and be executed in a java enabled 
+    client browser. Applets are used for creating dynamic and interractive web applications.
