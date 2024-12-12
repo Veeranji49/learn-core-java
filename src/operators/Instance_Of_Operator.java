@@ -13,6 +13,5 @@ public class Instance_Of_Operator {
         System.out.println(result);
 
 
-
     }
 }

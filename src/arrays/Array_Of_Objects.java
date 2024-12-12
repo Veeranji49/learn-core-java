@@ -13,13 +13,13 @@ public class Array_Of_Objects {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter characters :");
 
-        for(int i =0; i<=str.length-1; i++){
-            str[i]=sc.next();
+        for (int i = 0; i <= str.length - 1; i++) {
+            str[i] = sc.next();
         }
         System.out.println(Arrays.toString(str));// It will give with full brackets, commas
 
         //modify
-        str[3] ="anji";
+        str[3] = "anji";
         System.out.println(Arrays.toString(str));
     }
 }

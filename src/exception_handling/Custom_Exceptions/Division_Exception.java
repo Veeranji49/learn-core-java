@@ -7,7 +7,7 @@ class DivideByZeroException extends Exception {
     }
 }
 
-public class Division_Exception{
+public class Division_Exception {
     static void divide(int num, int denom) throws DivideByZeroException {
         if (denom == 0) {
             throw new DivideByZeroException("Cannot divide by zero");

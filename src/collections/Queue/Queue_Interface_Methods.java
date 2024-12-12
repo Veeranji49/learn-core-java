@@ -35,7 +35,7 @@ public class Queue_Interface_Methods {
 
 
         //creating of pqeue
-        Queue<String> pq=new PriorityQueue<String>();
+        Queue<String> pq = new PriorityQueue<String>();
 
 
         //adding the elements
@@ -56,7 +56,7 @@ public class Queue_Interface_Methods {
         //adding the elements
         pq.add("mouse");
         pq.add("keyboard");
-        System.out.println(pq );
+        System.out.println(pq);
 
         //Showing top/head value but not deleted
         System.out.println(pq.peek());
@@ -88,10 +88,8 @@ public class Queue_Interface_Methods {
         System.out.println(pq);
 
 
-
-
         //creation of arrayDeque
-        ArrayDeque<String> au=new ArrayDeque<String>();
+        ArrayDeque<String> au = new ArrayDeque<String>();
 
 
         //adding the elements
@@ -133,7 +131,6 @@ public class Queue_Interface_Methods {
         //removing all the elements in queue
         au.clear();
         System.out.println(au);
-
 
 
     }

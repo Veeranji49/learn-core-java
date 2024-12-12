@@ -11,16 +11,16 @@ public class Printing_elements_by_Scanner {
 
         //input
         System.out.println("Enter array elements :");
-        for(int row =0; row<=arr.length-1; row++){
-            for(int col =0; col<=arr[row].length-1; col++){
+        for (int row = 0; row <= arr.length - 1; row++) {
+            for (int col = 0; col <= arr[row].length - 1; col++) {
                 arr[row][col] = sc.nextInt();
             }
         }
 
         //output
-        for(int row =0; row<=arr.length-1; row++){
-            for(int col=0; col<=arr[row].length-1; col++){
-                System.out.print(arr[row][col]+" ");
+        for (int row = 0; row <= arr.length - 1; row++) {
+            for (int col = 0; col <= arr[row].length - 1; col++) {
+                System.out.print(arr[row][col] + " ");
             }
             System.out.println();
         }

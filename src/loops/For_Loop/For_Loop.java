@@ -245,10 +245,9 @@ public class For_Loop {
         }
 
 
-
-         //  Program to Print Numbers from 1 to 100 That Are Divisible by 7
-        for(int i =1; i<=100; i++){
-            if(i%7==0){
+        //  Program to Print Numbers from 1 to 100 That Are Divisible by 7
+        for (int i = 1; i <= 100; i++) {
+            if (i % 7 == 0) {
                 System.out.println(i);
             }
         }
@@ -273,14 +272,14 @@ public class For_Loop {
 
         // program to print sum of prime numbers from 1 to 20
         int sum5 = 0;
-        for(int i=1; i<=20; i++){
+        for (int i = 1; i <= 20; i++) {
             int count1 = 0;
-            for(int j =1; j<=i; j++){
-                if(i%j==0){
+            for (int j = 1; j <= i; j++) {
+                if (i % j == 0) {
                     count1++;
                 }
             }
-            if(count1==2){
+            if (count1 == 2) {
                 sum5 = sum5 + i;
             }
         }
@@ -295,50 +294,5 @@ public class For_Loop {
         System.out.println("Product of numbers from 1 to 10: " + product);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
     }
 }

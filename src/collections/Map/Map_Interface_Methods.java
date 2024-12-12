@@ -76,19 +76,15 @@ public class Map_Interface_Methods {
 				 */
 
 
-
-
-
         //creating of Map
         //Map<Integer,String> m=new Hashtable<Integer,String>();
         //Map<Integer,String> m=new LinkedHashMap<Integer,String>();
         //Map<Integer,String> m=new TreeMap<Integer,String>();
-        Map<Integer,String> m=new HashMap<Integer,String>();
-
+        Map<Integer, String> m = new HashMap<Integer, String>();
 
 
         //adding the elements
-        m.put(1,"anji");
+        m.put(1, "anji");
         m.put(2, "veeru");
         m.put(3, "cristiano");
         m.put(4, "messi");
@@ -99,17 +95,15 @@ public class Map_Interface_Methods {
         System.out.println(m);
 
         //Retrieving all the key elements
-        Set<Integer> keys=m.keySet();
-        for(Integer key:keys)
-        {
-            System.out.println("Keys:"+key);
+        Set<Integer> keys = m.keySet();
+        for (Integer key : keys) {
+            System.out.println("Keys:" + key);
         }
 
         //Retrieving all the value elements
-        Collection<String> values=m.values();
-        for(String value:values)
-        {
-            System.out.println("ValuesL:"+value);
+        Collection<String> values = m.values();
+        for (String value : values) {
+            System.out.println("ValuesL:" + value);
         }
 
         //Retrieving a value based on key element
@@ -154,9 +148,6 @@ public class Map_Interface_Methods {
         //Removing all the elements in the map
         m.clear();
         System.out.println(m);
-
-
-
 
 
     }

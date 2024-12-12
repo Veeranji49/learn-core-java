@@ -13,7 +13,7 @@ public class Array_with_ToString {
         int[] arr = new int[8];
         System.out.println("Enter array elements :");
 
-        for(int i=0; i<=arr.length-1; i++){
+        for (int i = 0; i <= arr.length - 1; i++) {
             arr[i] = sc.nextInt();
         }
         System.out.println(Arrays.toString(arr));

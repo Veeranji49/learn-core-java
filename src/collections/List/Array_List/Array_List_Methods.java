@@ -35,7 +35,7 @@ public class Array_List_Methods {
 		 */
 
 
-        ArrayList<String> list=new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<String>();
 
         //adding the values to the arrayList
         list.add("anji");
@@ -53,7 +53,7 @@ public class Array_List_Methods {
         Collections.reverse(list);
         System.out.println(list);
 
-        ArrayList<String> arr=new ArrayList<String>();
+        ArrayList<String> arr = new ArrayList<String>();
 
         //adding the values to second arraylist
         arr.add("computer");
@@ -64,13 +64,13 @@ public class Array_List_Methods {
         arr.add("anji");
 
         //displaying all the values
-        System.out.println("displaying arr elements:"+arr);
+        System.out.println("displaying arr elements:" + arr);
 
-        System.out.println("equal :"+arr.equals(list));
+        System.out.println("equal :" + arr.equals(list));
 
         //index
         arr.indexOf(list);
-        System.out.println("index:"+arr);
+        System.out.println("index:" + arr);
 
         //Retrieving single element
         System.out.println(list.get(6));
@@ -87,17 +87,17 @@ public class Array_List_Methods {
 
         //return an array containing all the elements in the list
         arr.toArray();
-        System.out.println("array:"+arr);
+        System.out.println("array:" + arr);
 
         //Updating the elements with specified index
-        System.out.println(arr.set(0,"processor"));
+        System.out.println(arr.set(0, "processor"));
         System.out.println(arr);
 
         //to clear all the elements
         arr.clear();
         System.out.println(arr);
 
-        ArrayList<String> str=new ArrayList<String>();
+        ArrayList<String> str = new ArrayList<String>();
 
         //adding the elements
         str.add("anji");
@@ -111,11 +111,11 @@ public class Array_List_Methods {
         str.add("veeranji");
         str.add("manjunatha");
         str.add("anjaneya");
-        str.add(3,"bag");
+        str.add(3, "bag");
 
 
         //displaying all the elements
-        System.out.println("displaying:"+str);
+        System.out.println("displaying:" + str);
 
         //It will become synchronisation elements
         //it will not access multiple threads at a time
@@ -123,22 +123,21 @@ public class Array_List_Methods {
 
         //returns a list iterator over the elements in the list
         str.listIterator();
-        System.out.println("List iterator:"+str);
+        System.out.println("List iterator:" + str);
 
         //returns a sequencial collection with the stream
         str.stream();
-        System.out.println("stream:"+str);
+        System.out.println("stream:" + str);
 
 
         //returns the hashcode value for the list
         str.hashCode();
-        System.out.println("hashcode:"+str);
-
+        System.out.println("hashcode:" + str);
 
 
         //returns elements in proper sequence
         str.iterator();
-        System.out.println("iterator:"+str);
+        System.out.println("iterator:" + str);
 
         //Length of list elements
         System.out.println(str.size());
@@ -152,7 +151,7 @@ public class Array_List_Methods {
 
         //returns a shallow copy of arraylist
         str.clone();
-        System.out.println("clone:"+str);
+        System.out.println("clone:" + str);
 
         //retains only the elements in the specified locations
         System.out.println(str.retainAll(list));

@@ -29,9 +29,8 @@ public class Set_Interface_Methods {
 		 */
 
 
-
         //creation of set/hashset
-        HashSet<Integer> set=new HashSet<>();
+        HashSet<Integer> set = new HashSet<>();
 
         //adding the elements
         set.add(1);
@@ -66,8 +65,6 @@ public class Set_Interface_Methods {
         System.out.println(set);
 
 
-
-
         //properties of LinkedHashSet
 		/*
 		 	Default Capacity			= 16
@@ -81,7 +78,7 @@ public class Set_Interface_Methods {
 		 */
 
         //creation of LINKED HASHSET
-        LinkedHashSet<String> lhs=new LinkedHashSet<String>();
+        LinkedHashSet<String> lhs = new LinkedHashSet<String>();
 
         //adding the elements in the set
         lhs.add("anji");
@@ -113,8 +110,6 @@ public class Set_Interface_Methods {
         System.out.println(lhs);
 
 
-
-
         //properties of TreeSet
 		/*
 		 	Default Capacity			= 0
@@ -128,7 +123,7 @@ public class Set_Interface_Methods {
 		 */
 
         //Creation of TreeSet
-        TreeSet<Integer> ts=new TreeSet<Integer>();
+        TreeSet<Integer> ts = new TreeSet<Integer>();
 
         //adding the elements in the TreeSet
         ts.add(11);
@@ -185,9 +180,6 @@ public class Set_Interface_Methods {
         //Returns the greatest element in this set strictly less than thegiven element, or null if there is no such element.
         ts.clear();
         System.out.println(ts);
-
-
-
 
 
     }

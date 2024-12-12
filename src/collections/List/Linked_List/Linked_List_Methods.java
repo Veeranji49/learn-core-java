@@ -4,8 +4,7 @@ import java.util.LinkedList;
 
 public class Linked_List_Methods {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
 		/*
 
@@ -32,7 +31,7 @@ public class Linked_List_Methods {
 
         //////   LinkedList class Methods  /////
 
-        LinkedList<String> ll=new LinkedList<String>();
+        LinkedList<String> ll = new LinkedList<String>();
 
         ll.add("cristiano");
         ll.add("messi");
@@ -47,8 +46,7 @@ public class Linked_List_Methods {
         System.out.println(ll);
 
         //displaying all the elements using foreach loop
-        for(String ele:ll)
-        {
+        for (String ele : ll) {
             System.out.println(ele);
         }
 

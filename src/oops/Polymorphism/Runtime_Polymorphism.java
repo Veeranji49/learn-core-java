@@ -27,7 +27,7 @@ class Motorcycle extends Vehicle {
     }
 }
 
-public class Runtime_Polymorphism{
+public class Runtime_Polymorphism {
     public static void main(String[] args) {
         Vehicle vehicle1 = new Car(); // Reference of Vehicle and object of Car
         Vehicle vehicle2 = new Motorcycle(); // Reference of Vehicle and object of Motorcycle

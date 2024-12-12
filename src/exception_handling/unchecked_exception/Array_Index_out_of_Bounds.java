@@ -2,10 +2,10 @@ package exception_handling.unchecked_exception;
 
 public class Array_Index_out_of_Bounds {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            int[] arr = {1, 2, 3};
-            System.out.println(arr[3]); // ArrayIndexOutOfBoundsException
-        }
+        int[] arr = {1, 2, 3};
+        System.out.println(arr[3]); // ArrayIndexOutOfBoundsException
     }
+}
 

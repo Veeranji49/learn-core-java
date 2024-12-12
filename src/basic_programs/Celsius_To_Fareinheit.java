@@ -10,7 +10,7 @@ public class Celsius_To_Fareinheit {
         System.out.println("Enter temperature in Celsius:");
         double celsius = sc.nextDouble();
 
-        double fahrenheit = (celsius * 9/5) + 32;
+        double fahrenheit = (celsius * 9 / 5) + 32;
         System.out.println("Temperature in Fahrenheit: " + fahrenheit);
         sc.close();
     }

@@ -10,41 +10,41 @@ public class Program_2 {
         System.out.println("Enter fruit :");
         String fruit = sc.next();
 
-        switch (fruit){
+        switch (fruit) {
 
-            case "Apple" :
+            case "Apple":
                 System.out.println("Red Apple");
                 break;
 
-            case "Mango" :
+            case "Mango":
                 System.out.println("Yellow Mango");
                 break;
 
-            case "Guava" :
+            case "Guava":
                 System.out.println("Green Guava");
                 break;
 
-            case "Banana" :
+            case "Banana":
                 System.out.println("Yellow Banana");
                 break;
 
-            case "Pomegranate" :
+            case "Pomegranate":
                 System.out.println("Pink Pomegranate");
                 break;
 
-            case "Pine Apple" :
+            case "Pine Apple":
                 System.out.println("Pine Apple Fruit");
                 break;
 
-            case "Watermelon" :
+            case "Watermelon":
                 System.out.println("Water Melon Fruit");
                 break;
 
-            case "Jack Fruit" :
+            case "Jack Fruit":
                 System.out.println("Jack Fruit");
                 break;
 
-            case "Kiwi" :
+            case "Kiwi":
                 System.out.println("Kiwi Fruit");
                 break;
 

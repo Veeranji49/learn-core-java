@@ -4,8 +4,7 @@ import java.util.Stack;
 
 public class Stack_Methods {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 		/*
 
 			A Stack in Java is a collection that operates on a last-in,
@@ -38,7 +37,7 @@ public class Stack_Methods {
 
         ////////   Stack class Methods  ////////
 
-        Stack<String> stk=new Stack<String>();
+        Stack<String> stk = new Stack<String>();
 
         //adding the elements in stack
         stk.push("list");
@@ -56,11 +55,11 @@ public class Stack_Methods {
 
         //deletes the last element in stack in first
         System.out.println(stk.pop());
-        System.out.println("pop:"+stk);
+        System.out.println("pop:" + stk);
 
         //It shows the last element but not deleted
         System.out.println(stk.peek());
-        System.out.println("Peek:"+stk);
+        System.out.println("Peek:" + stk);
 
         //it gives the index of the element in stack
         System.out.println(stk.search("set"));

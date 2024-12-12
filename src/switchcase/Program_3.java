@@ -11,7 +11,7 @@ public class Program_3 {
         System.out.println("Enter fruit :");
         String fruit = sc.next();
 
-        switch (fruit){
+        switch (fruit) {
 
             case "Apple" -> System.out.println("Red Apple");
 

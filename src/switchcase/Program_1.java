@@ -10,33 +10,33 @@ public class Program_1 {
         System.out.println("Enter dice no :");
         int dice = sc.nextInt();
 
-        switch (dice){
+        switch (dice) {
 
-            case 1 :
+            case 1:
                 System.out.println("single");
                 break;
 
-            case 2 :
+            case 2:
                 System.out.println("double");
                 break;
 
-            case 3 :
+            case 3:
                 System.out.println("three");
                 break;
 
-            case 4 :
+            case 4:
                 System.out.println("four");
                 break;
 
-            case 5 :
+            case 5:
                 System.out.println("five");
                 break;
 
-            case 6 :
+            case 6:
                 System.out.println("six");
                 break;
 
-            case 7 :
+            case 7:
                 System.out.println("seven");
                 break;
 
